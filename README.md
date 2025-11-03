@@ -60,28 +60,25 @@ http://localhost:3001
 
 ---
 
-## 💻 Frontend (React + Vite)
+## 💻 Frontend Setup (React + Vite)
 
-### ▶️ Run Frontend Locally
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-**Frontend URL:**
-```
-http://localhost:8081
-```
-
-**Environment Variables (`.env`):**
-```bash
-VITE_USE_STANDALONE_BACKEND=true
-VITE_STANDALONE_API_URL=http://localhost:3001/api
-```
+Easily run the frontend locally to view your stock analysis dashboard.
 
 ---
+
+### ⚙️ Installation & Setup
+
+```bash
+# Navigate to the frontend directory
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+--
 
 ## 🌐 API Integration Flow
 
@@ -94,8 +91,11 @@ VITE_STANDALONE_API_URL=http://localhost:3001/api
 
 ## 📊 Example Prediction Chart
 
-![Example Graph](https://user-images.githubusercontent.com/example-placeholder.png)  
-*(Displays stock closing prices vs predicted values)*
+### Stock Price vs Moving Averages
+
+This chart shows how the stock price changes over time compared to its 50-day, 100-day, and 200-day moving averages.
+![Price vs Moving Averages](./assets/b15c1708-a478-448c-bcae-6065fd8f3e44.png)
+
 
 ---
 
