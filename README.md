@@ -18,7 +18,7 @@ This project allows users to:
 
 ## 🧠 Tech Stack
 
-| Component | Technology Used |
+|Component  |Technology Used |
 |------------|----------------|
 | **Frontend** | React + TypeScript + Vite |
 | **Backend** | FastAPI (Python) |
@@ -27,10 +27,7 @@ This project allows users to:
 | **Styling** | TailwindCSS / CSS Modules |
 | **Deployment Ready** | Vercel (frontend), Render / Railway (backend) |
 
-```
-
 ---
-
 ## 🧩 Backend (FastAPI)
 
 ### ▶️ Run Backend Locally
@@ -77,7 +74,6 @@ npm install
 
 # Start the development server
 npm run dev
-
 --
 
 ## 🌐 API Integration Flow
@@ -86,16 +82,6 @@ npm run dev
 2. Frontend calls `/api/fetch-stock-data` (Yahoo Finance API via backend).  
 3. Backend sends data to ML model for prediction.  
 4. Frontend displays both **actual** and **predicted** stock prices in charts.
-
----
-
-## 📊 Example Prediction Chart
-
-### Stock Price vs Moving Averages
-
-This chart shows how the stock price changes over time compared to its 50-day, 100-day, and 200-day moving averages.
-![Price vs Moving Averages](./assets/b15c1708-a478-448c-bcae-6065fd8f3e44.png)
-
 
 ---
 
